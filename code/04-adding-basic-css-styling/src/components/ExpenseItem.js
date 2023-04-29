@@ -13,3 +13,9 @@ function ExpenseItem() {
 }
 
 export default ExpenseItem;
+
+// In React, the className attribute is used instead of the class attribute for 
+// applying CSS classes to HTML elements. This is because class is a reserved 
+// keyword in JavaScript, and using it in JSX syntax would cause a syntax error.
+
+

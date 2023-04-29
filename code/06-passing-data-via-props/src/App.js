@@ -51,3 +51,7 @@ function App() {
 }
 
 export default App;
+
+
+// this code can be improved by using map() function
+

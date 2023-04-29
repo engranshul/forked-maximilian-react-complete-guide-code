@@ -13,3 +13,11 @@ body {
   background-color: #3f3f3f;
 }
 
+
+/* 
+This line of code is an @import rule in CSS that is used to import an external font from Google Fonts. The URL inside the parentheses specifies the location of the font file that you want to import. In this case, it's the Noto Sans JP font with two font weights (400 and 700) and a "swap" display option.
+
+The @import rule is typically used in a CSS file to import an external style sheet, but it can also be used to import fonts or other resources that are needed for the styling of a web page. Once the font is imported using this rule, it can be used in the rest of the CSS file by specifying the font family name in the font-family property of an element. 
+
+Importing fonts from external sources like Google Fonts is a common practice in web development to ensure consistency in the font display across different devices and platforms. It also allows web developers to use a wider range of fonts than the limited set of fonts that are available on most computers. 
+*/

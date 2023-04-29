@@ -41,3 +41,6 @@ const App = () => {
 }
 
 export default App;
+
+
+// Learnt how to use Card component to wrap other elements
