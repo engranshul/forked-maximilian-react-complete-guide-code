@@ -47,3 +47,17 @@ function closeModalHandler() {
   backdrop.remove();
   backdrop = null;
 }
+
+
+// Some important methods :
+// ele = document.createElement()
+// document.querySelector()
+// ele.addEventListener()
+// ele.textContent
+// ele.append()
+// ele.remove()
+// ele.className
+
+// concept of how model and backdrop gets visible together on screen using z index
+
+// Modals, like pop-ups, are components that pop up on a user's screen. The key difference, however, is that the user would have initiated the action as part of their journey. Modals are used for specific workflows such as adding users, deleting content, sharing content, adding content, and more.
