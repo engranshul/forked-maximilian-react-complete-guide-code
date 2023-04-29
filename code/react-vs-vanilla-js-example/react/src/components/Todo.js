@@ -22,6 +22,7 @@ function Todo(props) {
           Delete
         </button>
       </div>
+      {/* amazing concept that both model and backdrop will visible together */}
       {showModal && <Backdrop onClick={closeModalHandler} />}
       {showModal && <Modal text='Are you sure?' onClose={closeModalHandler} />}
     </div>
