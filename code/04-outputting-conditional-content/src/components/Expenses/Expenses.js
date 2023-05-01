@@ -16,6 +16,7 @@ const Expenses = (props) => {
     return expense.date.getFullYear().toString() === filteredYear;
   });
 
+  // important concept of displaying different jsx based on some condition
   let expensesContent = <p>No expenses found.</p>;
 
   if (filteredExpenses.length > 0) {
