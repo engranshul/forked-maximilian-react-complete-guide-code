@@ -4,6 +4,8 @@ import MoviesList from './components/MoviesList';
 import './App.css';
 
 function App() {
+
+  // amazing concept of isLoading
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
