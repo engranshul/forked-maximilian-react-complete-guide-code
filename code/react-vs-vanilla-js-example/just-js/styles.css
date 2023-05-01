@@ -49,6 +49,8 @@ h1, h2 {
   text-align: right;
 }
 
+/* see how both models and its backdrop uses z index */
+
 .modal {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
