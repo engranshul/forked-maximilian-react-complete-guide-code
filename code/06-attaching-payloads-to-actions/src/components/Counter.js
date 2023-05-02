@@ -3,9 +3,11 @@ import { useSelector, useDispatch } from 'react-redux';
 import classes from './Counter.module.css';
 
 const Counter = () => {
+  
   const dispatch = useDispatch();
   const counter = useSelector((state) => state.counter);
 
+  // dispatching with and without payload concept..
   const incrementHandler = () => {
     dispatch({ type: 'increment' });
   };
