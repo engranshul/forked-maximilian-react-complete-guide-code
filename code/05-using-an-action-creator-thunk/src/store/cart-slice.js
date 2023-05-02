@@ -43,6 +43,10 @@ const cartSlice = createSlice({
   },
 });
 
+// see how we method this method from useEffect in App.js to this place..
+// sendCartData function is an example of a Redux thunk. It returns a function that takes dispatch as an argument, and that function contains an async operation which updates data on a server using a PUT request. Depending on the outcome of the async operation, it dispatches different actions to update the Redux store, which are defined in the uiActions module. This is a typical pattern for using thunks in Redux to handle asynchronous operations and update the state of the application in response.
+
+
 export const sendCartData = (cart) => {
   return async (dispatch) => {
     dispatch(

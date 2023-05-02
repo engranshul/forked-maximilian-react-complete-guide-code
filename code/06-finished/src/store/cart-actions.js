@@ -1,6 +1,8 @@
 import { uiActions } from './ui-slice';
 import { cartActions } from './cart-slice';
 
+
+// concept of how we moved these function out of slice
 export const fetchCartData = () => {
   return async (dispatch) => {
     const fetchData = async () => {
