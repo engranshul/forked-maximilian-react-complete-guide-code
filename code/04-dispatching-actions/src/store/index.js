@@ -1,5 +1,6 @@
 import { createStore } from 'redux';
 
+// concept of how return statement is returning whole state
 const counterReducer = (state = { counter: 0 }, action) => {
   if (action.type === 'increment') {
     return {
@@ -16,6 +17,9 @@ const counterReducer = (state = { counter: 0 }, action) => {
   return state;
 };
 
-const store = createStore(counterReducer);
+const store = createStore(
+  counterReducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 
 export default store;
