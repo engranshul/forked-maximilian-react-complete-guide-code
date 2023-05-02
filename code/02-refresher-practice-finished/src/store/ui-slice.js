@@ -1,5 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 
+
+// ui slice initial state has cartIsVisible
+// see methods in reducers
 const uiSlice = createSlice({
   name: 'ui',
   initialState: { cartIsVisible: false },

@@ -3,6 +3,8 @@ import { configureStore } from '@reduxjs/toolkit';
 import uiSlice from './ui-slice';
 import cartSlice from './cart-slice';
 
+
+// concept of how we created 2 slices of cart and ui
 const store = configureStore({
   reducer: { ui: uiSlice.reducer, cart: cartSlice.reducer },
 });

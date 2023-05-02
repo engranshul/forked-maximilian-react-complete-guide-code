@@ -5,6 +5,7 @@ import classes from './Cart.module.css';
 import CartItem from './CartItem';
 
 const Cart = (props) => {
+  // getting items from redux store n mapping over them
   const cartItems = useSelector((state) => state.cart.items);
 
   return (

@@ -1,5 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 
+
+// cart slice initial state has items n total quantity
+// see methods in reducers
 const cartSlice = createSlice({
   name: 'cart',
   initialState: {

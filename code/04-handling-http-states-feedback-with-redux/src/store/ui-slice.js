@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
+// new method showNotification() added in ui-slice
 const uiSlice = createSlice({
   name: 'ui',
   initialState: { cartIsVisible: false, notification: null },
