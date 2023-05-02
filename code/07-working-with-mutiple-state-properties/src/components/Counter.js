@@ -3,10 +3,16 @@ import { useSelector, useDispatch } from 'react-redux';
 import classes from './Counter.module.css';
 
 const Counter = () => {
+  
+  // hook usage
   const dispatch = useDispatch();
+  
+  // useSelector to extract data 4m redux store in react components
   const counter = useSelector((state) => state.counter);
   const show = useSelector((state) => state.showCounter);
 
+
+  // see how we didnt need to make state variables here
   const incrementHandler = () => {
     dispatch({ type: 'increment' });
   };

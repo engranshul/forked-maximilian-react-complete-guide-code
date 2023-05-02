@@ -2,6 +2,8 @@ import { createSlice, configureStore } from '@reduxjs/toolkit';
 
 const initialState = { counter: 0, showCounter: true };
 
+// slice creation
+// amazing concept of how reducers are defined inside slice
 const counterSlice = createSlice({
   name: 'counter',
   initialState,
