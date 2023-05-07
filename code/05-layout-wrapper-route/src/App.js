@@ -34,3 +34,9 @@ function App() {
 }
 
 export default App;
+
+
+// When a user navigates to the / or /products path, the router will match the 
+// corresponding route and render the specified component inside the RootLayout 
+// component. This allows you to create a consistent layout for your application 
+// while still allowing for dynamic content based on the currently matched route.

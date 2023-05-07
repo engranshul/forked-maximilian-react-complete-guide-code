@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 import classes from './MainNavigation.module.css';
 
+// navigation that we want to get visible on all pages
 function MainNavigation() {
   return (
     <header className={classes.header}>
