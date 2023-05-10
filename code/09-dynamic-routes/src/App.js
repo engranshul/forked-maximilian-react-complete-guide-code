@@ -38,3 +38,6 @@ function App() {
 }
 
 export default App;
+
+// concept of how product and product detail page are integrated
+// concept how product detail page gets parameters
