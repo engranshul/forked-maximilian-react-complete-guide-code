@@ -36,3 +36,10 @@ function App() {
 }
 
 export default App;
+
+
+// The NavLink component is an extension of Link and provides additional features for 
+// styling active links and applying specific classes or styles to indicate the currently 
+// active route. It adds an active class to the rendered element when the current URL 
+// matches the specified to prop.
+// checkout class MainNavigation.js

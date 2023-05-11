@@ -38,3 +38,5 @@ function MainNavigation() {
 }
 
 export default MainNavigation;
+
+// see how they applied className attribute to NavLink

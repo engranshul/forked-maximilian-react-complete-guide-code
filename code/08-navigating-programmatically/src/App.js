@@ -36,3 +36,17 @@ function App() {
 }
 
 export default App;
+
+
+// In React Router, the useNavigate hook is used for programmatic navigation between 
+// routes within your application. It's part of the react-router-dom library and 
+// allows you to access the navigation functionality outside of a component.
+
+// The useNavigate hook returns a navigate function that can be used to navigate to a 
+// specific route programmatically. The function accepts a single argument, which is 
+// the path or URL to navigate to.
+
+// checkout Home.js
+
+
+

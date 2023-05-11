@@ -55,3 +55,9 @@ export default App;
 // and you want to navigate to a profile page, the relative path could be "profile".
 
 
+// Returns an object of key/value pairs of the dynamic params from the current URL 
+// that were matched by the route path.
+
+
+
+
