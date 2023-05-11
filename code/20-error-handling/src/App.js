@@ -42,3 +42,4 @@ export default App;
 
 
 // check Events.js and Error.js
+// see how Error.js handles diff status code errors

@@ -39,3 +39,7 @@ function App() {
 }
 
 export default App;
+
+// see how we changed throw new Response to throw json(of react-router-dom) 
+// in Events.js
+

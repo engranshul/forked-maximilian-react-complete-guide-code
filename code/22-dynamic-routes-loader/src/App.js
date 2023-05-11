@@ -48,3 +48,24 @@ export default App;
 
 // using two loaders
 
+// Each route can define a "loader" function to provide data to the route element
+// before it renders.
+
+// As the user navigates around the app, the loaders for the next matching branch 
+// of routes will be called in parallel and their data made available to components 
+// through useLoaderData.
+
+// see how loader getting request and params in EventDetail.js
+
+
+// Another concept :
+// Without React Router, the browser would have made a Request to your server, but 
+// React Router prevented it! Instead of the browser sending the request to your 
+// server, React Router sends the request to your loaders.
+
+
+
+
+
+
+
