@@ -65,6 +65,8 @@ export default App;
 
 // loaders are for loading data and actions are of submitting data
 // check action on line 42
+// concept of how we used Form insted of form in EventForm.js
+
 
 
 
