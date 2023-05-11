@@ -51,3 +51,9 @@ function App() {
 }
 
 export default App;
+
+
+// loaders are for loading data and actions are of submitting data
+// check action on line 42
+
+

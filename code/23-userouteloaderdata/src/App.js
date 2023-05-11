@@ -51,3 +51,6 @@ function App() {
 }
 
 export default App;
+
+// see how we made eventDetailLoader available in EventDetailPage and EditEventPage
+// by nesting

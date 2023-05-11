@@ -5,7 +5,8 @@ function HomePage() {
     <>
       <h1>My Home Page</h1>
       <p>
-        Go to <Link to="/products">the list of products</Link>.
+        Go to <Link to="/products">Clicking this WONT reload page</Link>. Go to{' '}
+        Go to <a href="/products">Clicking this will reload page</a>.
       </p>
     </>
   );

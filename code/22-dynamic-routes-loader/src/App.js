@@ -45,3 +45,6 @@ function App() {
 }
 
 export default App;
+
+// using two loaders
+
