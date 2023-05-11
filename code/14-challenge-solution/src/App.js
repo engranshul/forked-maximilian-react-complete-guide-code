@@ -62,3 +62,5 @@ function App() {
 }
 
 export default App;
+
+// see how we used relative paths in createBrowserRouter()

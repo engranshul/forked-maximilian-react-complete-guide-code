@@ -36,3 +36,4 @@ export default App;
 
 
 // concept of getting events on Events.js page using an api
+// isLoading concept

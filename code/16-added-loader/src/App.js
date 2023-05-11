@@ -48,7 +48,8 @@ function App() {
 export default App;
 
 
-// concept of how we used loader to get api data in createBrowserRouter object
+// concept of how we used loader instead of useEffect() to get api data in 
+// createBrowserRouter object
 // check out Events.js to see how we used this data
 // we can getData using useLoadedData() in component and its children but not in its parent
 

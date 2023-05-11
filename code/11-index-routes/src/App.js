@@ -38,8 +38,3 @@ function App() {
 }
 
 export default App;
-
-
-// "index: true": This key-value pair indicates that this route should be treated as the index or default route. When the URL matches the parent route that contains this route configuration object, and no child routes match further, this route will be rendered. It's a way to specify the default content to display when the route matches the parent.
-
-
