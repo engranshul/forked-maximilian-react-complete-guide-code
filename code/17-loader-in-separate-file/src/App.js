@@ -37,3 +37,6 @@ function App() {
 }
 
 export default App;
+
+
+// removed loader code to a separate file Events.js

@@ -36,4 +36,7 @@ function App() {
   return <RouterProvider router={router} />;
 }
 
+// check out Root.js and see how we used useNavigation to get the current state 
+// of navigation
+
 export default App;
