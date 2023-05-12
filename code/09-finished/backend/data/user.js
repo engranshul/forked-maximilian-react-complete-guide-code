@@ -4,6 +4,8 @@ const { v4: generateId } = require('uuid');
 const { NotFoundError } = require('../util/errors');
 const { readData, writeData } = require('./util');
 
+
+// function 1
 async function add(data) {
   const storedData = await readData();
   const userId = generateId();
@@ -16,6 +18,8 @@ async function add(data) {
   return { id: userId, email: data.email };
 }
 
+
+// function 2
 async function get(email) {
   const storedData = await readData();
   if (!storedData.users || storedData.users.length === 0) {
