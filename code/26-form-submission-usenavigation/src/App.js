@@ -53,3 +53,8 @@ function App() {
 }
 
 export default App;
+
+
+// checkout NewEvent.js
+// see how NewEvent.js uses EventForm inside it and able to access form data inside
+// action function

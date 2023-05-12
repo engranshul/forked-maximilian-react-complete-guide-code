@@ -9,6 +9,7 @@ function NewEventPage() {
 export default NewEventPage;
 
 export async function action({ request, params }) {
+  
   const data = await request.formData();
 
   const eventData = {

@@ -68,3 +68,22 @@ function App() {
 }
 
 export default App;
+
+// checkout NewsLetterSignup.js 
+// see how Form is different from fetcher Form
+// fetcherForm avoids navigation when form is submitted
+
+// const fetcher = useFetcher();
+// const { data, state } = fetcher;
+
+
+// In HTML/HTTP, data mutations and loads are modeled with navigation: <a href> and 
+// <form action>. Both cause a navigation in the browser. The React Router equivalents 
+// are <Link> and <Form>.
+// But sometimes you want to call a loader outside of navigation, or call an action 
+// (and get the data on the page to revalidate) without changing the URL. Or you need 
+// to have multiple mutations in-flight at the same time.
+// Many interactions with the server aren't navigation events. This hook lets you plug 
+// your UI into your actions and loaders without navigating.
+
+

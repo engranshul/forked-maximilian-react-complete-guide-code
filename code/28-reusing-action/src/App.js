@@ -62,3 +62,6 @@ function App() {
 }
 
 export default App;
+
+
+// see how we have made EventForm parameterized with method type : post or patch

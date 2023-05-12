@@ -53,3 +53,6 @@ function App() {
 }
 
 export default App;
+
+
+// see action deleteEventAction at line 39

@@ -68,3 +68,12 @@ function App() {
 }
 
 export default App;
+
+
+// when we click a link to land on a new page
+// possibility 1 : wait for the whole page to load and show loading..
+// possibility 2 : load some parts of page(like navbar) and for some other parts show loading..
+
+// check out Events.js
+// import { Suspense } from 'react';
+// import { useLoaderData, json, defer, Await } from 'react-router-dom';
