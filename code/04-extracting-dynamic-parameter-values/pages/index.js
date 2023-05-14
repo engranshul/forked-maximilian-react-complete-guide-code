@@ -5,3 +5,5 @@ function HomePage() {
 }
 
 export default HomePage;
+
+// see how we used nextjs hook inside [newsId].js
