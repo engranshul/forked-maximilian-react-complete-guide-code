@@ -5,3 +5,5 @@ function HomePage() {
 }
 
 export default HomePage;
+
+// check next js "Link" inside index.js in news folder
