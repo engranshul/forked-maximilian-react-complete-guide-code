@@ -47,3 +47,6 @@ export async function getStaticProps() {
 }
 
 export default HomePage;
+
+
+// check out api folder

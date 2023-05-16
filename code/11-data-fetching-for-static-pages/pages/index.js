@@ -33,3 +33,6 @@ export async function getStaticProps() {
 }
 
 export default HomePage;
+
+// see this method getStaticProps()
+

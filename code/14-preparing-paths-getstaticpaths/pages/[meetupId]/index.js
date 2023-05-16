@@ -51,3 +51,10 @@ export async function getStaticProps(context) {
 }
 
 export default MeetupDetails;
+
+
+// checkout getStaticPaths() function
+// In Next.js, the getStaticPaths() function is a special function that you can export
+// from a page component. It is used in conjunction with the getStaticProps() function 
+// to implement dynamic routes and pre-render pages at build time.
+

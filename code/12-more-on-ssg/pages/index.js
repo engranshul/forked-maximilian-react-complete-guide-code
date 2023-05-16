@@ -34,3 +34,5 @@ export async function getStaticProps() {
 }
 
 export default HomePage;
+
+// see revalidate flag in getStaticProps()

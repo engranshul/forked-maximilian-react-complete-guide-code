@@ -22,3 +22,6 @@ function HomePage() {
 }
 
 export default HomePage;
+
+// see how we are using meetup form inside new-meetup index.js
+

@@ -22,3 +22,6 @@ function HomePage() {
 }
 
 export default HomePage;
+
+// see how MeetupList has been provided dummyMeetups array
+

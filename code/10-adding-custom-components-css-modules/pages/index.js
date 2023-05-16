@@ -24,3 +24,6 @@ function HomePage() {
 }
 
 export default HomePage;
+
+// concept of how we kept pages lean and added css classes in the components 
+// folder instead of pages folder

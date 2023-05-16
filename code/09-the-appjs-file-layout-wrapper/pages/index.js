@@ -24,3 +24,6 @@ function HomePage() {
 }
 
 export default HomePage;
+
+// see how we used Layout wrapper in _app.js
+

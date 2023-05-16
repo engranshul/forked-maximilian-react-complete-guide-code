@@ -47,3 +47,6 @@ export async function getStaticProps() {
 }
 
 export default HomePage;
+
+
+// checkout new-meetup folder
