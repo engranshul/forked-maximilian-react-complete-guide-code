@@ -59,3 +59,6 @@ export async function getStaticProps() {
 }
 
 export default HomePage;
+
+
+// see how we added Head section inside HomePage function in this file
