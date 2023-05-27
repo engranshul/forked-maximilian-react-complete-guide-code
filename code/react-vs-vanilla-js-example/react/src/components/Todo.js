@@ -4,8 +4,11 @@ import Backdrop from './Backdrop';
 import Modal from './Modal';
 
 function Todo(props) {
+
+  // managing state
   const [showModal, setShowModal] = useState();
 
+  // two functions to update state
   function showModalHandler() {
     setShowModal(true);
   }
