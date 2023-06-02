@@ -3,8 +3,11 @@ const button = document.querySelector('button');
 let modal;
 let backdrop;
 
+// see how showModalHandler is getting called on button click..
 button.addEventListener('click', showModalHandler);
 
+
+// 1st function
 function showModalHandler() {
   if (modal) {
     return;
@@ -40,6 +43,7 @@ function showModalHandler() {
   document.body.append(backdrop);
 }
 
+// 2nd function
 function closeModalHandler() {
   modal.remove();
   modal = null;
